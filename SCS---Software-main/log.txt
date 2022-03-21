@@ -1,0 +1,846 @@
+commit 2b3bcc5df7d3d760e5687ff02a7fe0a209648f00
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Sat Mar 19 23:50:39 2022 -0600
+
+    Update checkoutmanger for new moneymanager
+
+commit 4da5e6dfac4eae461f07b66acc85c9cd240fdd6d
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Sat Mar 19 23:36:42 2022 -0600
+
+    update the tests cases to fit in the new constructor
+
+commit 885bc90b00c727ee13a92d6f3795a851815f8d94
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Sat Mar 19 17:00:41 2022 -0600
+
+    Update ProductCatalog.java
+
+commit ddd48f912bbc42e3539dcd771fa950d481c7b42e
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Sat Mar 19 16:56:44 2022 -0600
+
+    Removed Redundancy
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit aab3e9d3627890ddad00a0adac356ae3f9de8b06
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Sat Mar 19 16:52:14 2022 -0600
+
+    Update test cases
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 2d98b088b06d8c250448756927b243b867b0c917
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Sat Mar 19 15:14:21 2022 -0600
+
+    Added getters for testing, updated addBarcode, and ESO
+
+commit 4e183299cec06525c618ae80d00b72e5829c6c50
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Sat Mar 19 15:12:38 2022 -0600
+
+    Implemented tests for ItemManager (almost 100% coverage)
+
+commit f32ca4cfcaba52b6484f95b01d342ba407a53c58
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Sat Mar 19 15:10:01 2022 -0600
+
+    Changed line 32 comparison from == to .equals
+
+commit 45e9c8772fe935ca71f2164b7906e5627b798fe3
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Sat Mar 19 00:08:16 2022 -0600
+
+    Update ProductCatalog.java
+
+commit bb5eec5f4fc40395335462143b8c7561f7c5114f
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Sat Mar 19 00:05:37 2022 -0600
+
+    Update ProductCatalogTest.java
+
+commit 127b449c0a47a9897945477f8217d5d991681cb7
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Sat Mar 19 00:02:40 2022 -0600
+
+    Update ProductCatalogTest.java
+
+commit becd815d06429d55691a776b0b583a6551935701
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Sat Mar 19 00:01:37 2022 -0600
+
+    Update ProductCatalog.java
+
+commit c3769a6dbbb79c0a6126a26bbca4b1da47a1ee6a
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 23:59:59 2022 -0600
+
+    Update ProductCatalog.java
+
+commit 4cd8cb1eaa713c1b1bbe8171c642e25a941a7291
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 22:36:52 2022 -0600
+
+    Added the nulls back
+    
+    I was being stupid :(
+
+commit 0f92bd4d5448ce310739ce8bba4ecb4e3d34893b
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 21:52:05 2022 -0600
+
+    Update ProductCatalog.java
+
+commit 956b8ca4882c5c4c12fa70ef84fbf8ebbfea1ef8
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 21:43:31 2022 -0600
+
+    Removed null exceptions
+    
+    Barcode is never null because of exceptions inside BarcodeProduct and BarcodeItem
+
+commit 8691520c1770070467e7347b633f8dc4b130416f
+Merge: 7f49b92 15754f0
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 20:34:33 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 7f49b926855fca602e8b4cad33a4670a703782a0
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 20:33:59 2022 -0600
+
+    changed test
+
+commit 15754f0b29b07906a15d84fb19c64e1f2acca3d9
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Fri Mar 18 20:08:56 2022 -0600
+
+    Update MoneyManagerTest.java
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit 1378f6a34b6a78fe3641b47fde2a880f0acfb177
+Merge: ff8942b 4470441
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 20:05:30 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 44704413b39f5bd8adbaab42e1d43a4e570dd395
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Fri Mar 18 20:04:39 2022 -0600
+
+    Update MoneyManagerTest.java
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit ff8942b8028b9cf202ab0711f29282467926bb0e
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 20:02:45 2022 -0600
+
+    changed CAD
+
+commit 57cf0f3e6984478a8bffde5f8ab23d7efcea3704
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 19:53:15 2022 -0600
+
+    Final update
+
+commit cc2b6cb5970e23fbbc1118e5d152dcbdc79c61ce
+Merge: 34dc371 47cf553
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 19:30:45 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 47cf553222498efd55c535fb7a40bef68bfcb101
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 19:29:56 2022 -0600
+
+    setter added
+
+commit 34dc37111b48fe8eee9af565b5dfcec00562f9d3
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 19:27:40 2022 -0600
+
+    added getters & setters
+
+commit e93579e1dfc96a995e82ac42827db66081e02438
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 18:52:17 2022 -0600
+
+    fixed logic mistake
+
+commit 95f61cb6a9cad00a5fa7ae9a88cc9fcb17b9d104
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 18:43:14 2022 -0600
+
+    Redundancy removed
+
+commit dbc87119df4b488411d8465fb862c6a7d191a668
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 18:33:26 2022 -0600
+
+    Update CheckoutManagerTestFinal.java
+
+commit 71c750bf2fc1a4634269eafb99f22a4b85b70b44
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 18:29:44 2022 -0600
+
+    Update CheckoutManagerTestFinal.java
+
+commit 2345c05832d0bc486e30c9696e88b5b82e263c5b
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 18:03:18 2022 -0600
+
+    Rename ProductCatalogTest to ProductCatalogTest.java
+
+commit fc9a6f23a9ff2dcdfbecb2a44d82bc6853b9e5af
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 18:02:24 2022 -0600
+
+    Added skeleton for test
+
+commit 5d658aba87e55c6870b194a6c020faf3fed14c9a
+Merge: db90f97 685d910
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 18:01:07 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit db90f977570406af23d68880f0b8df75f7a8d0aa
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 18:00:58 2022 -0600
+
+    BIG UPDATE!!! test case's structure changed
+    
+    Instantiated a selfcheckoutstation
+
+commit 685d910cc686630ccc91c54323f9d475b44214c7
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 17:57:34 2022 -0600
+
+    Update MoneyManager.java
+
+commit c92e64122ccefe3baad39597df914c83d43e01ea
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Fri Mar 18 17:56:51 2022 -0600
+
+    Added custom exceptions
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit a7afc2cb38e6fab135a06092286b102e5d37cce2
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 17:49:56 2022 -0600
+
+    Added exception
+    
+    Added exception to removeProduct
+
+commit 411afbfc2185c92411f803f0804d65402b810ccc
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 17:49:33 2022 -0600
+
+    added more descriptions for tests
+
+commit 2aa478c0d148acbc94f46ff3aff3d1f760e294b5
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:41:50 2022 -0600
+
+    New exception
+
+commit 81c5705067e03c4d2b0f746fccd32fb3089cf1cb
+Merge: 903e7f8 3f3c8a2
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:40:14 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 903e7f86ab5f0c089eaf0c98e839171496de519b
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:40:02 2022 -0600
+
+    The experimental test class
+
+commit 3f3c8a2a0848136ccbe7614ad75c1852661965d7
+Merge: 61527c5 ab945e3
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 17:38:36 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 61527c549860d8211846c574185b161b21cb076d
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 17:38:22 2022 -0600
+
+    Update CheckoutManager.java
+
+commit ab945e3c118d04e492407061b09c35657188500d
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:36:09 2022 -0600
+
+    bug fixed
+
+commit 9e617236d0fa2496876be6aca9208bc02d04b949
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 17:17:37 2022 -0600
+
+    Added getters for products and items
+
+commit 95ddfd88586f7785cd611c2d4a1b6c61d69e6732
+Merge: 3efadee be0b772
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 17:14:36 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 3efadee686ae41b20e8744b0e506e6dd1ed938c6
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 17:14:31 2022 -0600
+
+    added sum_coins()/sum_banknote()
+
+commit be0b772bd888e9bc25e63b508e70d06fcd99cb86
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 17:12:58 2022 -0600
+
+    Updated Null tests, added desc for needed tests
+
+commit 66ba1fd50ce32945fac8a514abf8b92ce6d587ea
+Merge: 2415e9f cd8a7a9
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:03:39 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 2415e9f04541fd8aa6b23dd2119c6a7b97889022
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 17:03:23 2022 -0600
+
+    MINOR UPDATE
+
+commit cd8a7a9c1927a9d0a67ba46c79c58a9b12cc7a0c
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 16:53:26 2022 -0600
+
+    Update ProductCatalog.java
+
+commit 375c6272b6b70f5892e6db93916eed68ad7ebb2a
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 16:51:38 2022 -0600
+
+    Create notInInventoryException.java
+
+commit 48719eeaac8c85ccc5130d12bfbce8125d6c7079
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Fri Mar 18 16:07:28 2022 -0600
+
+    Update Foo.java
+
+commit 1fafea77235277129fafa9a40a74f15cdfce32f6
+Merge: e4a8904 26ba4d2
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 15:33:01 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 26ba4d2287af42450d9a102e1b248a665484765f
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 15:24:18 2022 -0600
+
+    Tiny changes
+
+commit d3069953cfc4e383789d38f2ad51b2e705536e2d
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Fri Mar 18 15:17:27 2022 -0600
+
+    Given exceptions
+    
+    Given exceptions to methods removeProduct() and addProduct()
+
+commit f43499f4f97ac27ac8f62a655620fe679ce4be19
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 15:01:33 2022 -0600
+
+    Updated tests for ItemManager
+    
+            -set up
+            -NullPointerTests
+
+commit e4a89049fe17b2cc10584f0ab2da7a1a70be0be4
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Fri Mar 18 14:59:32 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 30c8900fa6b509f7eb8ea299773f837dd09ed2d6
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 13:57:51 2022 -0600
+
+    Updated ItemManager
+
+commit d2d0ef2506ff3cdcd84ca139487fc0e47cdb1acd
+Merge: 361a6d4 2c66db1
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Fri Mar 18 13:32:03 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 2c66db128533ebee0060c83f10ba193ad49a2207
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 13:27:49 2022 -0600
+
+    Restore
+
+commit c28b0e7181448fc897147c695d976602e2de866f
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 13:23:52 2022 -0600
+
+    Restore
+
+commit 0a86aba1223139dfd00a52f9615312c16bf0fcee
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 13:20:23 2022 -0600
+
+    Restore
+
+commit 0e9f16a35d42ae12f4a60054920971ce1538d9fa
+Author: a2-b2 <101610797+a2-b2@users.noreply.github.com>
+Date:   Fri Mar 18 13:05:10 2022 -0600
+
+    Restore and update ItemManager and ProductCatalog
+
+commit 2cec3c799e4faa8e274c2fea06caf58bd5934959
+Author: a2-b2 <abrahamabalos@gmail.com>
+Date:   Fri Mar 18 12:21:10 2022 -0600
+
+    Changed barcode storagefrom arraylist to HashMap
+    
+            - now tracks how many of each barcode is scanned
+    Uses ProductCatalog to get information using barcodes
+    Added NullPointerException
+
+commit 9f4fde9bb0646bce37550fab9786cc75869b04a9
+Author: a2-b2 <abrahamabalos@gmail.com>
+Date:   Fri Mar 18 12:04:04 2022 -0600
+
+    Updated Observer implementation
+    
+    Changed barcode storage from arraylist to HashMap
+            - now tracks how many of each barcode is scanned
+    Uses ProductCatalog to get information using barcodes
+    Added exception error
+
+commit 8a4548300f1a8630fbbdb6e14f1865b2ef968593
+Merge: e3fd48e e990c37
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 21:10:15 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit e990c37fd1e0e49683ab9124f579934fdc643edb
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Thu Mar 17 21:10:03 2022 -0600
+
+    Create NegativeFundsException.java
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit e3fd48ee76184c0382f20a7e96a50d53e0c1253d
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 21:09:46 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit d65ebc85bbbf8d65fcc7aab0fc74e979c691c655
+Merge: 8b66179 c06cfdb
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Thu Mar 17 21:03:31 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 8b66179a414e26d67677d043f6ed13caa0a18946
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Thu Mar 17 21:03:23 2022 -0600
+
+    Removed Duplicated Classes
+    
+    removed duplicated classes
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit c06cfdb2ec4b8a1d165a61f5f9b0755afa013b21
+Merge: 1304ed2 361a6d4
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 20:52:18 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 1304ed2b1a3d512ffacfa884c93abb8f189b80aa
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 20:52:13 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 93e34fd59e327ff961e4fff98948bb7a209b99ed
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 20:32:42 2022 -0600
+
+    Added new methods
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 361a6d41b35029f855cc77b2b81c18097b684ff7
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 20:30:46 2022 -0600
+
+    syntax fixed
+
+commit 577b5b7fa303015a520cb522d3cad3d5c8021665
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Thu Mar 17 20:23:52 2022 -0600
+
+    Update CheckoutmanagerTest.java
+
+commit f8072e0fd49c56830becd7ea14f257e8202ead9f
+Merge: 591be4c 7d4e2b1
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 20:12:02 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 591be4cbee72c2f671ea8f29deb2f902238b1bed
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 20:12:00 2022 -0600
+
+    minor update on test cases
+
+commit 7d4e2b1831a28f1e8d38de88f17bbf25ceb26010
+Merge: a9c7541 ce9166f
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 18:24:13 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit a9c7541d258d6cad13a4b91f161bb08d9e7728f5
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 18:24:02 2022 -0600
+
+    added method to sum banknotes
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit ce9166f896476c201a46572d05c86a7bcbe43697
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 18:11:48 2022 -0600
+
+    minor update for test class
+
+commit 0e9d24038717d866ea9feb985e3a12c29c2d9b67
+Merge: e131d57 a0ba4b1
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 18:06:32 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit e131d57d038f6f23c723ef80f87f93d6302840f1
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Thu Mar 17 18:06:28 2022 -0600
+
+    Test case updated
+    
+    small modifications
+
+commit a0ba4b1e90baecf47918a25c331924279f518ac3
+Merge: 987ca94 63e44be
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Thu Mar 17 17:49:32 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 63e44be6986bb7297fbc95e086b484d48e728e7a
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Thu Mar 17 16:50:03 2022 -0600
+
+    Update ProductCatalog.java
+
+commit c2c875fdf3b72bdb8f154febafe06953698c24a6
+Author: JohnLugue <85981146+JohnLugue@users.noreply.github.com>
+Date:   Thu Mar 17 16:23:10 2022 -0600
+
+    Added methods to ProductCatalog
+
+commit 1e2fcff4f95dbec21a78ab52d63fc3989a30d647
+Author: a2-b2 <abrahamabalos@gmail.com>
+Date:   Thu Mar 17 14:16:05 2022 -0600
+
+    Changed ItemManager to a different approach (no longer implementing BarcodeScannerObserver itself)
+
+commit e72eb65081b9a6ba8df854f1ba9cd22c643f7fdf
+Merge: 3b11d9e e04d1d6
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 22:46:03 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 3b11d9e0cac5f297fefa7cf6b06e39f98a64604d
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 22:45:48 2022 -0600
+
+    add funds check and observer functionality and exceptions for CheckoutManager
+
+commit e04d1d67a4ab24bf30e5bd5267859039a00a86d2
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Wed Mar 16 22:42:07 2022 -0600
+
+    Create test1.java
+
+commit 1829ec920855846f6f346b1bbeae0ba7e63295f1
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Wed Mar 16 22:41:11 2022 -0600
+
+    test update 1
+
+commit 987ca94cd1cd21e0c0f273beaf0fde8d1d9304fe
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 22:40:54 2022 -0600
+
+    change
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 36ed09c1b6f50e9a51294e0706a98e1ebd0ce65a
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Wed Mar 16 22:15:09 2022 -0600
+
+    redundancy deleted
+
+commit 6797e963321af9670fda22c25591be0100ba0b48
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 22:12:45 2022 -0600
+
+    Create InsufficientFundsException.java
+
+commit 8352eec55887899bb4d46a96632df67e0dc964b9
+Author: XiaShaohuan <shaohuan.xia@ucalgary.ca>
+Date:   Wed Mar 16 22:12:11 2022 -0600
+
+    CheckoutmanagerTest added
+
+commit a54d559ad891ad51199e9b03cb68c2ec05a39909
+Author: XiaShaohuan <87153062+XiaShaohuan@users.noreply.github.com>
+Date:   Wed Mar 16 21:42:54 2022 -0600
+
+    Create CheckoutManagerTest
+
+commit 4e6a5029ec2cde1ffdb7db5bb8e3549150220f55
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 21:39:49 2022 -0600
+
+    Update checkoutmanager to notify observer
+
+commit 53a7cc1cb92a82936082c485b5b12b69a433786a
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 21:24:15 2022 -0600
+
+    added base observer functionality and nonzero weight check
+
+commit 6d014e9e57325c7f614de4936765807514949990
+Merge: 8a95629 0fc4c85
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 20:56:58 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 8a95629212cab932a1649fd11b8dd86ae1410ea6
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 20:56:46 2022 -0600
+
+    edit
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 0fc4c8504772355e809fa1536ded85feeaf0b8d1
+Merge: fcfcbe9 d948195
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Wed Mar 16 20:56:26 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit fcfcbe9cc68e2ac2ae1ecd1066362d8a95e9d0c8
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Wed Mar 16 20:56:16 2022 -0600
+
+    Created CoinListener
+    
+    created coinlistener class
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit d948195404f502803ac875e79437a77c87bc84fb
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 20:42:40 2022 -0600
+
+    refactored files
+
+commit 8f738ed37f004d8da9e48ca75fdb1b77fa58ffbd
+Merge: 3c8e9ca f495472
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 19:07:20 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 3c8e9caccbf55e057bb387f9e9f113cdccaabb3a
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 19:07:15 2022 -0600
+
+    added observer availability
+
+commit f4954725720f9d72a80aba1301b37cf86613ea78
+Merge: f8559b8 1acc12b
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Wed Mar 16 18:39:57 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit 1acc12bd037ff6bdee625ad503ceb9c1c86b2699
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 18:39:32 2022 -0600
+
+    1
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit f8559b86b5f6062722ff13ca7b44a3b2f1691af0
+Author: Sjnaka <wu.dingkai@hotmail.com>
+Date:   Wed Mar 16 18:38:51 2022 -0600
+
+    Create BanknoteListener
+    
+    Created BanknoteListener class
+    
+    Co-Authored-By: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+
+commit f1657168eb1d634b677a2ba52ec8ab2d5a471b5d
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 18:03:35 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 21f5d6744daa0f45d6197483a4d121b2d35ce199
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 17:32:36 2022 -0600
+
+    Testing class
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 983dc48934f35bc898a4c7ff1e2dfb294bb4c2c1
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 16:35:53 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 244051f69aba7b6c02eea78cd422cf265dee541d
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 16:31:38 2022 -0600
+
+    Created Arraylists
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit c61fc3e7f086f4e38ab270c65f6723a1162c70eb
+Merge: a823489 e855bd0
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 16:28:39 2022 -0600
+
+    Merge branch 'main' of https://github.com/cfedyshen/SCS---Software
+
+commit a82348923d45b788585c9b2db8af9b8b28144f6f
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 16:19:17 2022 -0600
+
+    Created Observer class
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit e855bd0bc18c3f754329ca76b1e3dcc023b29dbc
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Wed Mar 16 16:15:37 2022 -0600
+
+    Update CheckoutManager.java
+
+commit 8da7b01db806a327fbef189d06d597fa227a23e4
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Wed Mar 16 16:14:22 2022 -0600
+
+    Added folders
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit 13df10f786db8cd39eed085cfca1d3066d96dd0b
+Author: a2-b2 <abrahamabalos@gmail.com>
+Date:   Wed Mar 16 16:08:36 2022 -0600
+
+    Second commit, non tested code
+
+commit 5270d8af141d5e032c3f2d6b14317d52b8f4a30f
+Author: a2-b2 <abrahamabalos@gmail.com>
+Date:   Tue Mar 15 21:31:47 2022 -0600
+
+    Initial commit for ItemManager
+
+commit bb2bd67f587ff21fd8da796d85afcf997f0e3f77
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Tue Mar 15 21:18:43 2022 -0600
+
+    Update MoneyManager.java
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit c6184a20a62aadff356388666f2f1972563955b6
+Author: PKDT-93 <75346912+PKDT-93@users.noreply.github.com>
+Date:   Tue Mar 15 20:41:02 2022 -0600
+
+    Created MoneyManager
+    
+    Co-Authored-By: Sjnaka <73262207+Sjnaka@users.noreply.github.com>
+
+commit dfd58993281e061e10b2153dc94db168da001a79
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Tue Mar 15 19:25:46 2022 -0600
+
+    Create CheckoutManager.java
+
+commit ee9292804aaf670efbdbc574c5e24e1399e4d5d2
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Mon Mar 14 22:02:37 2022 -0600
+
+    Update Foo.java
+
+commit 326da05fcb5a5b0dc4375e3398170d63fe5741dc
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Mon Mar 14 21:11:44 2022 -0600
+
+    Update .classpath
+
+commit 8c9939396fbd9c4fe258970fbc328461c53f28d5
+Author: cfedyshen <75519874+cfedyshen@users.noreply.github.com>
+Date:   Mon Mar 14 20:24:00 2022 -0600
+
+    Initial commit
